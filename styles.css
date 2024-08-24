@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 1px solid #000;
+    background-color: #eee;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button, select {
+    margin: 5px;
+    padding: 10px;
+}
+
+.dark-theme #gameCanvas {
+    background-color: #333;
+    border-color: #666;
+}
+
+.dark-theme #score {
+    color: #fff;
+}
